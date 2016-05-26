@@ -27,9 +27,9 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency 'guard'
+  spec.add_dependency 'guard', '~> 2.0'
   spec.add_dependency 'colorize', '~> 0.7'
-  spec.add_dependency "guard-compat"
+  spec.add_dependency "guard-compat", '~> 1.1'
 
   spec.add_development_dependency "bundler", "~> 1.12"
   spec.add_development_dependency "rake", "~> 10.0"
