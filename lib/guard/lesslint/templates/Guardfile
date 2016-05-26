@@ -1,0 +1,3 @@
+guard 'lesslint' do
+  watch %r{^app/assets/stylesheets/.*\.less$}
+end
